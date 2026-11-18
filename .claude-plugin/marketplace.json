@@ -1,0 +1,32 @@
+{
+  "name": "whathead-paid-media",
+  "owner": {
+    "name": "Whathead"
+  },
+  "metadata": {
+    "description": "Free paid-media skills: audits, pacing, tracking QA, creative fatigue, transfers, reporting and anomaly triage",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "paid-media-skills",
+      "description": "Twelve paid-media skills for Meta, Google Ads, TikTok, Snapchat, LinkedIn, X, DV360 and more. Work with exports, sheets or a live MCP connection.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ad-account-audit",
+        "./skills/wasted-spend-finder",
+        "./skills/budget-pacing-check",
+        "./skills/naming-convention-audit",
+        "./skills/utm-tracking-qa",
+        "./skills/creative-fatigue-detector",
+        "./skills/cross-platform-transfer-plan",
+        "./skills/weekly-performance-report",
+        "./skills/campaign-launch-checklist",
+        "./skills/snapchat-tiktok-setup-review",
+        "./skills/anomaly-triage",
+        "./skills/search-content-opportunities"
+      ]
+    }
+  ]
+}
